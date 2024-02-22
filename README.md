@@ -5,4 +5,7 @@
 Note: Vercel Web Analytics is built into this. Just enable it on your Vercel account.
 
 # Donate by using this QR Code & Monero (XMR)
+
 <img src="donate.png">
+
+### Any amount is appreciated
