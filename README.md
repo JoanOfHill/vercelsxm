@@ -8,4 +8,4 @@ Note: Vercel Web Analytics is built into this. Just enable it on your Vercel acc
 
 <img src="donate.png">
 
-### Any amount is appreciated
+Any amount is appreciated
