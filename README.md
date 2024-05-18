@@ -4,6 +4,12 @@
 
 Note: Vercel Web Analytics is built into this. Just enable it on your Vercel account.
 
+For anyone interested, there is a Mac app for SiriusXM available.
+
+You can get it here: https://github.com/richardk80/siriusxm-mac-silicon/raw/main/SiriusXM_0.0.1_aarch64.dmg
+
+Note: This only works on Silicon Macs.
+
 # Donate by using this QR Code & Monero (XMR)
 
 <img src="donate.png">
