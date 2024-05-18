@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
     <meta name="description" content="SXM Activator">
-    <title>SXM Activator</title>
+    <title>SiriusXM Activator</title>
     <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.svg') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </head>
 <body>
+    <div class="header"><h1>Activate SiriusXM Radio</h1></div>
     <div class="box">
+        <div class="logo">
+			<img src="{{ url_for('static', filename='images/SiriusXM-Logo-onLight.svg') }}" alt="SiriusXM Logo">
+		</div>
         {% if result and result.success %}
             <img alt="success" class="status" onclick="info()" src="{{ url_for('static', filename='images/success.svg') }}" title="Click for info">
         {% elif result and not result.success %}
