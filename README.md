@@ -10,8 +10,6 @@ You can get it here: [https://github.com/richardk80/siriusxm-mac/](https://githu
 
 aarch64 is silicon and x64 is intel
 
-Note: This only works on Silicon Macs.
-
 # Donate by using this QR Code & Monero (XMR)
 
 <img src="donate.png">
