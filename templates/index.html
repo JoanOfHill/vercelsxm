@@ -9,11 +9,10 @@
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </head>
 <body>
-    <div class="header"><h1>Activate SiriusXM Radio</h1></div>
+    <div class="header">
+        <h1>Activate Radio</h1>
+    </div>
     <div class="box">
-        <div class="logo">
-			<img src="{{ url_for('static', filename='images/SiriusXM-Logo-onLight.svg') }}" alt="SiriusXM Logo">
-		</div>
         {% if result and result.success %}
             <img alt="success" class="status" onclick="info()" src="{{ url_for('static', filename='images/success.svg') }}" title="Click for info">
         {% elif result and not result.success %}
